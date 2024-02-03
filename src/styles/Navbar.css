@@ -1,0 +1,31 @@
+.navitem:hover{
+    color: #2270E2;
+    cursor: pointer;
+}
+
+/* animation to display by height */
+
+@keyframes show {
+    from {
+        height: 0vh;
+    }
+    to {
+       height: 20vh;
+    }
+}
+
+/* animation to hide by height */
+
+@keyframes hide {
+    from {
+        height: 100vh;
+    }
+    to {
+        height: 0vh;
+    }
+}
+
+.animate{
+    animation: show 0.3s ease-in-out;
+
+}
